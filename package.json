@@ -1,0 +1,24 @@
+{
+  "name": "cnblogs",
+  "version": "1.0.0",
+  "description": "梦魄心魂个人博客",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh",
+    "commoments": "win10环境下，可以通过 git bash 面板执行: npm run deploy(注：此行为注释)"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uakora/cnblogs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uakora/cnblogs/issues"
+  },
+  "homepage": "https://github.com/uakora/cnblogs#readme"
+}
