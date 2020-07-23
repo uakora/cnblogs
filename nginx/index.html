@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Nginx常用命令 | 梦魄心魂的博客</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="favicon.png">
+    <meta name="description" content="Nginx常用命令">
+    <link rel="preload" href="/cnblogs/assets/css/0.styles.f27f0a96.css" as="style"><link rel="preload" href="/cnblogs/assets/js/app.d9d7622a.js" as="script"><link rel="preload" href="/cnblogs/assets/js/2.2e896bb6.js" as="script"><link rel="preload" href="/cnblogs/assets/js/6.89e06bc2.js" as="script"><link rel="prefetch" href="/cnblogs/assets/js/3.5c2e2ccc.js"><link rel="prefetch" href="/cnblogs/assets/js/4.30a7bfcd.js"><link rel="prefetch" href="/cnblogs/assets/js/5.5ad2461f.js">
+    <link rel="stylesheet" href="/cnblogs/assets/css/0.styles.f27f0a96.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/cnblogs/" class="home-link router-link-active"><img src="logo.png" alt="梦魄心魂的博客" class="logo"> <span class="site-name can-hide">梦魄心魂的博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/cnblogs/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/cnblogs/nginx/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  技术文档
+</a></div><div class="nav-item"><a href="https://www.cnblogs.com/uakora/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  博客园主页
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/cnblogs/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/cnblogs/nginx/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  技术文档
+</a></div><div class="nav-item"><a href="https://www.cnblogs.com/uakora/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  博客园主页
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Nginx常用命令</span> <!----></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h4 id="cmd窗口"><a href="#cmd窗口" class="header-anchor">#</a> CMD窗口</h4> <ul><li><p>启动：<code>start nginx(.exe)</code></p></li> <li><p>停止：<code>nginx(.exe) -s stop</code></p></li> <li><p>重启：<code>nginx(.exe) -s reload</code></p></li> <li><p>退出：<code>nginx(.exe) -s quit</code></p></li></ul> <h4 id="powershell窗口"><a href="#powershell窗口" class="header-anchor">#</a> PowerShell窗口</h4> <ul><li><p>启动：<code>start .\nginx(.exe)</code></p></li> <li><p>停止：<code>.\nginx(.exe) -s stop</code></p></li> <li><p>重启：<code>.\nginx(.exe) -s reload</code></p></li> <li><p>退出：<code>.\nginx(.exe) -s quit</code></p></li></ul> <blockquote><p>说明：</p></blockquote> <ol><li><p>“(.exe)”表示“.exe”可加可不加</p></li> <li><p>PowerShell窗口要加 <code>.\</code>，否则会报错</p></li></ol> <h4 id="stop-与-quit-的区别"><a href="#stop-与-quit-的区别" class="header-anchor">#</a> stop 与 quit 的区别</h4> <ul><li><p>stop: 强制停止nginx服务器，如果有未处理的数据，丢弃</p></li> <li><p>quit：优雅的停止nginx服务器，如果有未处理的数据，等待处理完成之后停止</p></li></ul> <p><br><br></p> <p><strong style="color:red;">下图为在PowerShell窗口不在nginx之前加“.\”报错提示：</strong></p> <p><img src="https://img2020.cnblogs.com/blog/1126007/202007/1126007-20200711205457730-1096614627.png" alt=""></p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/cnblogs/assets/js/app.d9d7622a.js" defer></script><script src="/cnblogs/assets/js/2.2e896bb6.js" defer></script><script src="/cnblogs/assets/js/6.89e06bc2.js" defer></script>
+  </body>
+</html>
