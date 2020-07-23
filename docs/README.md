@@ -2,7 +2,7 @@
 home: true
 heroImage: spider.jpg
 heroText: 我的主页
-tagline: My homepage
+tagline: 我用双手拯救我的梦想
 actionText: 技术文档
 actionLink: /nginx/
 features:
